@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 'navbar navbar'
+                         'sobre sobre'
+                        'botao1 botao2'
+                        'footer footer';
+    grid-auto-rows: 10vh 10vh 10vh 10vh;
+    
+}           
+
+
+navbar{
+    grid-area: navbar;
+    background-color: red;
+
+}
+
+#sobre{
+    grid-area: sobre;
+    background-color: black;
+}
+#botao1{
+    grid-area: botao1;
+    background-color: blue;
+}
+
+#botao2{
+    grid-area: botao2;
+    background-color: brown;
+}
+
+footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
